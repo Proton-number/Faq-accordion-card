@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  position: relative;
+}
+
+#container{
+  border-radius: 13px;
+height: auto;
+}
+
+.top-img{
+  display: flex;
+justify-content: center;
+margin-bottom: -82px;
+}
+
+#woman-mobile{
+  height: 225px;
+  width: 300px;
+}
+
+#pattern-mobile{
+  height: 113px;
+  width: 281px;
+}
+
+#main{
+  margin-top: 20px;
+}
