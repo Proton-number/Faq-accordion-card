@@ -5,9 +5,6 @@
   text-align: center;
 }
 
-body{
-  position: relative;
-}
 
 #container{
   border-radius: 13px;
@@ -30,6 +27,157 @@ margin-bottom: -82px;
   width: 281px;
 }
 
+#woman-desktop,#pattern-desktop,#box-desktop{display: none;}
+
 #main{
   margin-top: 20px;
+}
+
+@media screen and (min-width:760px) {
+  #woman-mobile,#pattern-mobile{display: none;}
+
+#woman-desktop,#pattern-desktop,#box-desktop {display: block;}
+
+#container{
+  display: flex;
+  width: 78%;
+margin: 50px auto;
+padding: 10px;
+}
+
+#woman-desktop{
+  height: 300px;
+  width: 350px;
+}
+
+#pattern-desktop{
+  width: 300px;
+height: 343px;
+}
+
+#box-desktop{
+  height: 100px;
+width: 100px;
+position: absolute;
+top: 157px;
+left: 12px;
+right: 0;
+bottom: 0;
+}
+
+
+#main{
+  margin-top: 8px;
+}
+
+
+.top-img{
+  display: block;
+  margin-bottom: -343px;
+  margin-left: 142px;
+  position: relative;
+}
+
+}
+
+
+@media screen and (max-width:798px) {
+
+  #container{
+    display: flex;
+    width: 98%;
+  margin: 50px auto;
+  padding: 10px;
+  }
+
+  
+#woman-desktop{
+  height: 250px;
+  width: 280px;
+}
+
+  
+.top-img{
+  display: block;
+  margin-bottom: -320px;
+  margin-left: -23px;
+  position: relative;
+}
+
+#box-desktop{
+  height: 100px;
+width: 100px;
+position: absolute;
+top: 120px;
+left: -6px;
+right: 0;
+bottom: 0;
+}
+
+  
+}
+
+
+
+@media screen and (min-width:800px) {
+  
+ 
+  #container{
+    display: flex;
+    width: 80%;
+  margin: 50px auto;
+  padding: 18px;
+  }
+
+  .top-img{
+    display: block;
+    margin-bottom: -363px;
+    margin-left: 22px;
+    position: relative;
+  }
+  
+#pattern-desktop{
+  width: 300px;
+height: 343px;
+}
+
+}
+
+
+@media screen and (min-width:1050px) {
+  
+
+  #woman-desktop{
+    height: 300px;
+    width: 320px;
+  }
+  
+#container{
+  display: flex;
+  width: 78%;
+margin: 50px auto;
+padding: 15px;
+}
+
+
+.top-img{
+  display: block;
+  margin-bottom: -343px;
+  margin-left: 58px;
+  position: relative;
+}
+
+
+
+}
+
+@media screen and (min-width:1280px) {
+  
+.top-img{
+  display: block;
+  margin-bottom: -343px;
+  margin-left: 84px;
+  position: relative;
+}
+
 }

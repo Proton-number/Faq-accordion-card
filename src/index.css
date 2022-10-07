@@ -2,7 +2,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));

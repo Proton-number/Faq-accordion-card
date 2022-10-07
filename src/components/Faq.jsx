@@ -1,8 +1,11 @@
 import React, {useState} from 'react'
 import {Paper, Container, Box, Typography, Accordion,  AccordionSummary, AccordionDetails, createTheme, ThemeProvider } from '@mui/material'
 import womanMobile from '/src/images/illustration-woman-online-mobile.svg'
+import womanDesktop from '/src/images/illustration-woman-online-desktop.svg'
 import patternMobile from '/src/images/bg-pattern-mobile.svg'
+import patternDesktop from '/src/images/bg-pattern-desktop.svg'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import box from '/src/images/illustration-box-desktop.svg'
 
 function Faq() {
     const [expanded, setExpanded] = useState(false);
@@ -20,21 +23,29 @@ function Faq() {
         }
     })
 
+    // Used this to get the width of the window 😂
+    // const width = window.innerWidth;
+
+    // console.log(width)
+
   return (
    <>
 
    <Box className='top-img'>
 <img src={womanMobile} alt="" id='woman-mobile' />
+<img src={womanDesktop} alt="" id='woman-desktop' />
+<img src={box} alt='' id='box-desktop' />
    </Box>
 
 <Paper id='container' elevation={4}>
 <Box>
 <img src={patternMobile} alt='' id='pattern-mobile' />
+<img src={patternDesktop} alt='' id='pattern-desktop' />
 </Box>
 
        <Container id='main'>
 
-        <Typography variant='h4'>Faq</Typography>
+        <Typography variant='h4'> Faq </Typography>
             
           <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} elevation={0}>
 

@@ -4,7 +4,7 @@ import Faq from './components/Faq'
 import {createTheme, ThemeProvider } from '@mui/material'
 
 function App() {
- 
+ //  Applying createTheme and ThemeProvider was the only way to overwrite the Roboto fontFamily
   const theme = createTheme({
     typography:{
       fontFamily: 'Kumbh Sans, sans-serif'
