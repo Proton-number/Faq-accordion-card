@@ -81,45 +81,8 @@ bottom: 0;
 }
 
 
-@media screen and (max-width:798px) {
 
-  #container{
-    display: flex;
-    width: 98%;
-  margin: 50px auto;
-  padding: 10px;
-  }
-
-  
-#woman-desktop{
-  height: 250px;
-  width: 280px;
-}
-
-  
-.top-img{
-  display: block;
-  margin-bottom: -320px;
-  margin-left: -23px;
-  position: relative;
-}
-
-#box-desktop{
-  height: 100px;
-width: 100px;
-position: absolute;
-top: 120px;
-left: -6px;
-right: 0;
-bottom: 0;
-}
-
-  
-}
-
-
-
-@media screen and (min-width:800px) {
+@media screen and (min-width:790px) {
   
  
   #container{
